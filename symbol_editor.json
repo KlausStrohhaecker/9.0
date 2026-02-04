@@ -66,7 +66,7 @@
     "open_libs": []
   },
   "library": {
-    "sort_mode": 0
+    "sort_mode": 1
   },
   "meta": {
     "version": 1
@@ -127,7 +127,7 @@
       "axes_enabled": true,
       "fast_grid_1": 1,
       "fast_grid_2": 2,
-      "last_size": 3,
+      "last_size": 1,
       "line_width": 1.0,
       "min_spacing": 10.0,
       "override_connected": true,

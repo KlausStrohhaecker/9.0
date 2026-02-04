@@ -4,9 +4,9 @@
   },
   "black_background": false,
   "color_picker": {
-    "default_tab": 1
+    "default_tab": 0
   },
-  "corner_origin": 4,
+  "corner_origin": 0,
   "cross_probing": {
     "auto_highlight": true,
     "center_on_items": true,
@@ -27,9 +27,9 @@
     "highlight_factor": 0.5,
     "select_factor": 0.75
   },
-  "last_custom_height": 1000,
-  "last_custom_width": 1000,
-  "last_paper_size": "User",
+  "last_custom_height": 11000,
+  "last_custom_width": 17000,
+  "last_paper_size": "A3",
   "last_was_portrait": false,
   "lib_tree": {
     "column_widths": null,
@@ -51,15 +51,13 @@
     "title_block": false,
     "use_theme": false
   },
-  "properties_frame_width": 382,
+  "properties_frame_width": 150,
   "search_pane": {
     "search_hidden_fields": true,
     "selection_zoom": 1
   },
   "system": {
-    "file_history": [
-      "/home/ksl/Documents/KiCad/ks-kicad-libraries/ks-std.kicad_wks
-    ],
+    "file_history": [],
     "first_run_shown": false,
     "last_imperial_units": 5,
     "last_metric_units": 1,
@@ -95,83 +93,28 @@
       "sizes": [
         {
           "name": "",
-          "x": "1000 mil",
-          "y": "1000 mil"
+          "x": "5.00 mm",
+          "y": "5.00 mm"
         },
         {
           "name": "",
-          "x": "500 mil",
-          "y": "500 mil"
+          "x": "2.50 mm",
+          "y": "2.50 mm"
         },
         {
           "name": "",
-          "x": "250 mil",
-          "y": "250 mil"
+          "x": "2.00 mm",
+          "y": "2.00 mm"
         },
         {
           "name": "",
-          "x": "200 mil",
-          "y": "200 mil"
+          "x": "1.00 mm",
+          "y": "1.00 mm"
         },
         {
           "name": "",
-          "x": "100 mil",
-          "y": "100 mil"
-        },
-        {
-          "name": "",
-          "x": "50 mil",
-          "y": "50 mil"
-        },
-        {
-          "name": "",
-          "x": "25 mil",
-          "y": "25 mil"
-        },
-        {
-          "name": "",
-          "x": "20 mil",
-          "y": "20 mil"
-        },
-        {
-          "name": "",
-          "x": "10 mil",
-          "y": "10 mil"
-        },
-        {
-          "name": "",
-          "x": "5 mil",
-          "y": "5 mil"
-        },
-        {
-          "name": "",
-          "x": "2 mil",
-          "y": "2 mil"
-        },
-        {
-          "name": "",
-          "x": "1 mil",
-          "y": "1 mil"
-        },
-        {
-          "name": "",
-          "x": "5.0 mm",
-          "y": "5.0 mm"
-        },
-        {
-          "name": "",
-          "x": "2.5 mm",
-          "y": "2.5 mm"
-        },
-        {
-          "name": "",
-          "x": "1.0 mm",
-          "y": "1.0 mm"
-        },
-        {
-          "name": "",
-          "x": "0.5 mm",
-          "y": "0.5 mm"
+          "x": "0.50 mm",
+          "y": "0.50 mm"
         },
         {
           "name": "",
@@ -180,28 +123,13 @@
         },
         {
           "name": "",
-          "x": "0.2 mm",
-          "y": "0.2 mm"
+          "x": "0.20 mm",
+          "y": "0.20 mm"
         },
         {
           "name": "",
-          "x": "0.1 mm",
-          "y": "0.1 mm"
-        },
-        {
-          "name": "",
-          "x": "0.05 mm",
-          "y": "0.05 mm"
-        },
-        {
-          "name": "",
-          "x": "0.025 mm",
-          "y": "0.025 mm"
-        },
-        {
-          "name": "",
-          "x": "0.01 mm",
-          "y": "0.01 mm"
+          "x": "0.10 mm",
+          "y": "0.10 mm"
         }
       ],
       "snap": 0,
@@ -209,13 +137,13 @@
       "user_grid_x": "",
       "user_grid_y": ""
     },
-    "maximized": true,
+    "maximized": false,
     "mru_path": "",
-    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=888;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=136;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=36;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Props;caption=Properties;state=2044;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=382;besth=-1;minw=150;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=191;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(4,3,0)=34|dock_size(3,6,0)=36|dock_size(2,2,0)=34|dock_size(2,3,0)=384|dock_size(5,0,0)=384|",
+    "perspective": "",
     "pos_x": 0,
     "pos_y": 0,
-    "size_x": 1280,
-    "size_y": 720,
+    "size_x": 0,
+    "size_y": 0,
     "zoom_factors": [
       0.022,
       0.035,

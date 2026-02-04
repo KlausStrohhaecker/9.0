@@ -104,7 +104,7 @@ common.Control.saveCopy
 common.Control.selectColumns		
 common.Control.show3DViewer	Alt+3	
 common.Control.showContextMenu		
-common.Control.showDatasheet		
+common.Control.showDatasheet	Alt+Shift+D	
 common.Control.showFootprintBrowser		
 common.Control.showFootprintEditor		
 common.Control.showLibraryTable		
