@@ -66,6 +66,7 @@
   "system": {
     "check_for_kicad_updates": true,
     "file_history": [
+      "/home/ksl/Documents/KiCad/test-2/test-2.kicad_pro",
       "/home/ksl/Documents/KiCad/test/test.kicad_pro"
     ],
     "first_run_shown": false,
@@ -73,10 +74,10 @@
     "last_imperial_units": 5,
     "last_metric_units": 1,
     "last_received_update": "",
-    "last_update_check_time": "2026-02-04T09:07:14",
+    "last_update_check_time": "2026-02-04T12:24:43",
     "max_undo_items": 0,
     "open_projects": [
-      "/home/ksl/Documents/KiCad/test/test.kicad_pro"
+      "/home/ksl/Documents/KiCad/test-2/test-2.kicad_pro"
     ],
     "show_import_issues": true,
     "units": 1
@@ -98,7 +99,7 @@
       "always_show_cursor": true,
       "fullscreen_cursor": false
     },
-    "display": 0,
+    "display": 1,
     "grid": {
       "axes_enabled": false,
       "fast_grid_1": 15,
@@ -236,10 +237,10 @@
       "user_grid_y": ""
     },
     "maximized": false,
-    "mru_path": "/home/ksl/Documents/KiCad/test/",
-    "perspective": "layout2|name=MainToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=227;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProjectTree;caption=Project Files;state=1532;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Editors;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=700;besth=590;minw=700;minh=590;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=34|dock_size(4,1,0)=250|dock_size(5,0,0)=700|",
-    "pos_x": 465,
-    "pos_y": 221,
+    "mru_path": "/home/ksl/Documents/KiCad/test-2/",
+    "perspective": "layout2|name=ProjectTree;caption=Project Files;state=1532;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Editors;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=700;besth=590;minw=700;minh=590;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=227;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=34|dock_size(4,1,0)=250|dock_size(5,0,0)=700|",
+    "pos_x": 2046,
+    "pos_y": 189,
     "size_x": 989,
     "size_y": 611,
     "zoom_factors": [

@@ -51,13 +51,15 @@
     "title_block": false,
     "use_theme": false
   },
-  "properties_frame_width": 150,
+  "properties_frame_width": 710,
   "search_pane": {
     "search_hidden_fields": true,
     "selection_zoom": 1
   },
   "system": {
-    "file_history": [],
+    "file_history": [
+      "/home/ksl/Documents/KiCad/ks-kicad-libraries/ks-std.kicad_wks"
+    ],
     "first_run_shown": false,
     "last_imperial_units": 5,
     "last_metric_units": 1,
@@ -70,7 +72,7 @@
       "always_show_cursor": true,
       "fullscreen_cursor": false
     },
-    "display": 0,
+    "display": 1,
     "grid": {
       "axes_enabled": false,
       "fast_grid_1": 4,
@@ -137,13 +139,13 @@
       "user_grid_x": "",
       "user_grid_y": ""
     },
-    "maximized": false,
+    "maximized": true,
     "mru_path": "",
-    "perspective": "",
-    "pos_x": 0,
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=854;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=136;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=32;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Props;caption=Properties;state=2044;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=150;besth=-1;minw=150;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=197;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(4,3,0)=34|dock_size(3,6,0)=32|dock_size(2,2,0)=34|dock_size(2,3,0)=712|dock_size(5,0,0)=384|",
+    "pos_x": 1920,
     "pos_y": 0,
-    "size_x": 0,
-    "size_y": 0,
+    "size_x": 1290,
+    "size_y": 744,
     "zoom_factors": [
       0.022,
       0.035,

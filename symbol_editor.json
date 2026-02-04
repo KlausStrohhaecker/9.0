@@ -63,7 +63,15 @@
       "Item",
       "Description"
     ],
-    "open_libs": []
+    "open_libs": [
+      "-- Recently Used --",
+      "ks-opamp",
+      "ks-power",
+      "ks-RCL",
+      "ks-sigflow",
+      "Comparator",
+      "Interface_USB"
+    ]
   },
   "library": {
     "sort_mode": 1
