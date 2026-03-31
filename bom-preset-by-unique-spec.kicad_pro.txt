@@ -106,12 +106,6 @@
           },
           {
             "group_by": false,
-            "label": "JLCPCB #",
-            "name": "JLCPCB #",
-            "show": false
-          },
-          {
-            "group_by": false,
             "label": "LCSC Part #",
             "name": "LCSC Part #",
             "show": true
@@ -229,12 +223,6 @@
           "label": "PartNumber3",
           "name": "PartNumber3",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "JLCPCB #",
-          "name": "JLCPCB #",
-          "show": false
         },
         {
           "group_by": false,

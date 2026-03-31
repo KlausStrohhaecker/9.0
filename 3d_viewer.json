@@ -9,7 +9,7 @@
   "camera": {
     "animation_enabled": true,
     "moving_speed_multiplier": 3,
-    "projection_mode": 1,
+    "projection_mode": 0,
     "rotation_increment": 10.0
   },
   "color_picker": {
@@ -39,10 +39,6 @@
   "layer_presets": [
     {
       "colors": [
-        {
-          "color": "rgb(194, 194, 194)",
-          "layer": ""
-        },
         {
           "color": "rgb(102, 102, 128)",
           "layer": "background_bottom"
@@ -98,6 +94,186 @@
         {
           "color": "rgb(179, 26, 26)",
           "layer": "user_eco2"
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(232, 178, 167)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
         }
       ],
       "layers": [
@@ -216,7 +392,7 @@
     "show_drawings": false,
     "show_eco1": false,
     "show_eco2": false,
-    "show_footprints_dnp": false,
+    "show_footprints_dnp": true,
     "show_footprints_insert": true,
     "show_footprints_normal": true,
     "show_footprints_not_in_posfile": true,

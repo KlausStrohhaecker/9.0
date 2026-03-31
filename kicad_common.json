@@ -29,7 +29,7 @@
   },
   "environment": {
     "vars": {
-      "USER_FOOTPRINT_DIR": "/home/ksl/Documents/KiCad/ks-kicad-libraries",
+      "USER_FOOTPRINT_DIR": "/home/ksl/Documents/KiCad/ks-kicad-libraries/FP",
       "USER_SYMBOL_DIR": "/home/ksl/Documents/KiCad/ks-kicad-libraries"
     }
   },
@@ -93,6 +93,6 @@
     "pdf_viewer_name": "",
     "text_editor": "xed",
     "use_system_pdf_viewer": true,
-    "working_dir": "/home/ksl/Documents/KiCad/ks-kicad-libraries"
+    "working_dir": "/home/ksl/DevLocal/C25-hardware/pcba/kicad/ehc-midi/120107_C25_EhcMidi_1a"
   }
 }

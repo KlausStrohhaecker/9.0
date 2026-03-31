@@ -113,12 +113,12 @@
     "search_and_replace": false
   },
   "footprint_chooser": {
-    "filter_on_pin_count": true,
+    "filter_on_pin_count": false,
     "height": 680,
     "sash_h": 1075,
     "sash_v": 329,
     "sort_mode": 0,
-    "use_fp_filters": true,
+    "use_fp_filters": false,
     "width": 1674
   },
   "footprint_viewer": {
@@ -127,7 +127,7 @@
       "always_show_cursor": false,
       "fullscreen_cursor": false
     },
-    "display": 0,
+    "display": 1,
     "fp_list_width": 300,
     "grid": {
       "axes_enabled": false,
@@ -269,8 +269,8 @@
     "maximized": false,
     "mru_path": "/home/ksl/.local/share/kicad/9.0/projects",
     "perspective": "layout2|",
-    "pos_x": 123,
-    "pos_y": 186,
+    "pos_x": 2166,
+    "pos_y": 400,
     "size_x": 1674,
     "size_y": 680,
     "zoom": 1.8502696033423827,
@@ -509,7 +509,12 @@
       "Description"
     ],
     "open_libs": [
-      "Package_SO"
+      "-- Recently Used --",
+      "ks-connector-audio",
+      "Package_TO_SOT_SMD",
+      "Connector_JST",
+      "Package_DFN_QFN",
+      "TerminalBlock_WAGO"
     ]
   },
   "meta": {
@@ -519,7 +524,7 @@
     "associate_by_ref_sch": false,
     "delete_extra_footprints": true,
     "delete_shorting_tracks": false,
-    "report_filter": 58,
+    "report_filter": 48,
     "update_footprints": true
   },
   "pcb_display": {
@@ -600,15 +605,19 @@
   },
   "system": {
     "file_history": [
-      "/home/ksl/Documents/KiCad/test/test.kicad_pcb",
+      "/home/ksl/DevLocal/C25-hardware/pcba/kicad/ehc-midi/120107_C25_EhcMidi_1a/120107_C25_EhcMidi_1a.kicad_pcb",
+      "/home/ksl/DevLocal/C25-hardware/pcba/kicad/erp-control/120106_C25_ErpControl_2a/120106_C25_ErpControl_2a.kicad_pcb",
+      "/home/ksl/DevLocal/C25-hardware/pcba/kicad/erp-actor/initial/erp_aktor_board_v2a.kicad_pcb",
+      "/home/ksl/DevLocal/KeybedScannerClassic/KiCad/keybed_scanner.kicad_pcb",
       "/home/ksl/Documents/KiCad/test-2/test-2.kicad_pcb",
+      "/home/ksl/Documents/KiCad/test/test.kicad_pcb",
       "/usr/share/kicad/demos/tiny_tapeout/tinytapeout-demo.kicad_pcb",
       "/usr/share/kicad/demos/video/video.kicad_pcb"
     ],
     "first_run_shown": false,
-    "last_footprint3d_dir": "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes",
-    "last_footprint_lib_dir": "/home/ksl/.local/share/kicad/9.0/footprints",
-    "last_imperial_units": 5,
+    "last_footprint3d_dir": "${USER_FOOTPRINT_DIR}/3D",
+    "last_footprint_lib_dir": "/home/ksl/Documents/KiCad/ks-kicad-libraries/FP",
+    "last_imperial_units": 0,
     "last_metric_units": 1,
     "max_undo_items": 0,
     "show_import_issues": true,
@@ -655,7 +664,7 @@
       "axes_enabled": false,
       "fast_grid_1": 15,
       "fast_grid_2": 16,
-      "last_size": 21,
+      "last_size": 18,
       "line_width": 1.0,
       "min_spacing": 10.0,
       "override_connected": false,
@@ -789,9 +798,9 @@
     },
     "maximized": true,
     "mru_path": "",
-    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1026;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=1205;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=390;besth=36;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=670;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=739;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1534;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=220;besth=-1;minw=200;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=220;floath=480|name=SelectionFilter;caption=Selection Filter;state=1534;dir=2;layer=4;row=0;pos=2;prop=0;bestw=238;besth=-1;minw=238;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=238;floath=148|name=PropertiesManager;caption=Properties;state=2098686;dir=4;layer=5;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=300;floath=200|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=390;besth=167;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=NetInspector;caption=Net Inspector;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=300;floath=200|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(1,5,0)=34|dock_size(3,6,0)=36|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(5,0,0)=381|",
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1067;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=943;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=390;besth=32;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=670;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=739;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1534;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=220;besth=-1;minw=200;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=220;floath=480|name=SelectionFilter;caption=Selection Filter;state=1534;dir=2;layer=4;row=0;pos=2;prop=0;bestw=217;besth=-1;minw=217;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=217;floath=136|name=PropertiesManager;caption=Properties;state=2098686;dir=4;layer=5;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=300;floath=200|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=390;besth=173;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=NetInspector;caption=Net Inspector;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=300;floath=200|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(1,5,0)=34|dock_size(3,6,0)=32|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(5,0,0)=381|",
     "pos_x": 320,
-    "pos_y": 166,
+    "pos_y": 168,
     "size_x": 1280,
     "size_y": 720,
     "zoom_factors": [
