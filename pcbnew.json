@@ -511,6 +511,8 @@
     "open_libs": [
       "-- Recently Used --",
       "ks-connector-audio",
+      "ks-DFN-QFN",
+      "ks-RCL",
       "Package_TO_SOT_SMD",
       "Connector_JST",
       "Package_DFN_QFN",
