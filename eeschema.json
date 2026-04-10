@@ -67,7 +67,7 @@
     "search_panel_height": 110,
     "search_panel_width": 284,
     "show_net_nav_panel": false,
-    "show_properties": false,
+    "show_properties": true,
     "show_schematic_hierarchy": false,
     "show_search": false
   },
@@ -106,7 +106,7 @@
     "zoom_to_fit": false
   },
   "design_block_chooser": {
-    "height": 572,
+    "height": 846,
     "keep_annotations": false,
     "lib_tree": {
       "column_widths": {
@@ -117,7 +117,7 @@
     "place_as_sheet": false,
     "repeated_placement": false,
     "sash_pos_h": 440,
-    "sash_pos_v": 371,
+    "sash_pos_v": 508,
     "sort_mode": 0,
     "width": 300
   },
@@ -151,13 +151,13 @@
     "export_filename": "",
     "field_widths": {
       "${DNP}": 100,
-      "${EXCLUDE_FROM_BOARD}": 100,
-      "${EXCLUDE_FROM_BOM}": 100,
+      "${EXCLUDE_FROM_BOARD}": 164,
+      "${EXCLUDE_FROM_BOM}": 147,
       "${ITEM_NUMBER}": 80,
       "${QUANTITY}": 100,
       "Datasheet": 100,
       "Description": 210,
-      "Footprint": 100,
+      "Footprint": 250,
       "JLCPCB #": 80,
       "LCSC Part #": 80,
       "Manufacturer": 169,
@@ -170,33 +170,34 @@
       "UniqueSpecification": 353,
       "Value": 100
     },
-    "height": 600,
+    "height": 1056,
     "page": 0,
     "scope": 0,
     "selection_mode": 0,
-    "width": 1679
+    "width": 1920
   },
   "find_replace": {
     "find_history": [
+      "r59",
+      "r13",
+      "r14",
+      "R14",
+      "470R",
+      "NRST",
       "100R",
       "U6",
       "U3",
-      "VCL",
-      "C51",
-      "GND",
-      "O-",
-      "Power Output symbol creates a global label with name \"<V>\"",
-      "power output",
-      "output"
+      "VCL"
     ],
-    "find_string": "100R",
+    "find_string": "r59",
     "match_case": false,
     "match_mode": 0,
     "replace_history": [
+      "nRESET",
       "VCL3"
     ],
     "replace_references": false,
-    "replace_string": "VCL3",
+    "replace_string": "nRESET",
     "search_all_fields": false,
     "search_all_pins": false,
     "search_and_replace": false,
@@ -232,20 +233,7 @@
     "open_libs": [
       "-- Recently Used --",
       "-- Already Placed --",
-      "ks-connector",
-      "ks-opamp",
-      "ks-crystals-oscillators",
-      "ks-diode",
-      "ks-opto",
-      "ks-power",
-      "ks-RCL",
-      "ks-regulator",
-      "ks-sigflow",
-      "ks-smps",
-      "ks-switchmux",
-      "ks-transistor",
-      "Comparator",
-      "Interface_USB"
+      "ks-mcu-stm32"
     ]
   },
   "lib_view": {
@@ -257,7 +245,7 @@
         "always_show_cursor": false,
         "fullscreen_cursor": false
       },
-      "display": 1,
+      "display": 0,
       "grid": {
         "axes_enabled": false,
         "fast_grid_1": 1,
@@ -307,8 +295,8 @@
       "maximized": false,
       "mru_path": "/home/ksl/.local/share/kicad/9.0/projects",
       "perspective": "layout2|",
-      "pos_x": 2099,
-      "pos_y": 55,
+      "pos_x": 179,
+      "pos_y": 47,
       "size_x": 1562,
       "size_y": 936,
       "zoom_factors": [
@@ -507,14 +495,14 @@
   "system": {
     "file_history": [
       "/home/ksl/DevLocal/C25-hardware/pcba/kicad/ehc-midi/120107_C25_EhcMidi_1a/120107_C25_EhcMidi_1a.kicad_sch",
+      "/home/ksl/DevLocal/C25-hardware/pcba/kicad/erp-control/120106_C25_ErpControl_3a/120106_C25_ErpControl_3a.kicad_sch",
       "/home/ksl/DevLocal/C25-hardware/pcba/kicad/erp-control/120106_C25_ErpControl_2a/120106_C25_ErpControl_2a.kicad_sch",
+      "/home/ksl/DevLocal/C25-hardware/pcba/kicad/erp-control(abandoned)/120106_C25_ErpControl_2a/120106_C25_ErpControl_2a.kicad_sch",
       "/home/ksl/DevLocal/C25-hardware/pcba/kicad/keybed-scanner-classic/120105_C25_KeybedScannerClassic_2a/120105_C25_KeybedScannerClassic_2a.kicad_sch",
       "/home/ksl/DevLocal/C25-hardware/pcba/kicad/erp-control/initial/erp_aktor_board_v2a.kicad_sch",
       "/home/ksl/DevLocal/C25-hardware/pcba/kicad/erp-actor/initial/erp_aktor_board_v2a.kicad_sch",
       "/home/ksl/DevLocal/C25-hardware/pcba/kicad/keybed-scanner-classic/initial/keybed_scanner.kicad_sch",
-      "/home/ksl/DevLocal/KeybedScannerClassic/KiCad/keybed_scanner.kicad_sch",
-      "/home/ksl/DevLocal/KiCad/KeybedScannerClassic/keybed_scanner.kicad_sch",
-      "/home/ksl/Documents/KiCad/test-2/untitled.kicad_sch"
+      "/home/ksl/DevLocal/KeybedScannerClassic/KiCad/keybed_scanner.kicad_sch"
     ],
     "first_run_shown": false,
     "last_imperial_units": 5,
@@ -579,11 +567,11 @@
     },
     "maximized": true,
     "mru_path": "",
-    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1172;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=390;besth=32;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SchematicHierarchy;caption=Schematic Hierarchy;state=2099150;dir=4;layer=3;row=0;pos=1;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=1965;floaty=73;floatw=200;floath=200|name=PropertiesManager;caption=Properties;state=2099150;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=300;floath=400|name=SelectionFilter;caption=Selection Filter;state=2098638;dir=4;layer=3;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DesignBlocks;caption=Design Blocks;state=2099150;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=800;floath=600|name=NetNavigator;caption=Net Navigator;state=2099150;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=200;floath=200|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=460;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=890;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=390;besth=173;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(3,6,0)=32|dock_size(4,2,0)=34|dock_size(2,2,0)=34|dock_size(5,0,0)=392|",
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1172;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=390;besth=32;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SchematicHierarchy;caption=Schematic Hierarchy;state=2099150;dir=4;layer=3;row=0;pos=1;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=45;floaty=73;floatw=200;floath=200|name=PropertiesManager;caption=Properties;state=2099148;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=300;floath=400|name=SelectionFilter;caption=Selection Filter;state=2098636;dir=4;layer=3;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DesignBlocks;caption=Design Blocks;state=2099150;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=800;floath=600|name=NetNavigator;caption=Net Navigator;state=2099150;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=200;floath=200|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=460;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=890;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=390;besth=173;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(3,6,0)=32|dock_size(4,2,0)=34|dock_size(2,2,0)=34|dock_size(5,0,0)=392|dock_size(4,3,0)=302|",
     "pos_x": 1920,
     "pos_y": 0,
     "size_x": 1920,
-    "size_y": 730,
+    "size_y": 1004,
     "zoom_factors": [
       0.05,
       0.07,

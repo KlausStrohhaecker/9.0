@@ -519,7 +519,7 @@ pcbnew.Control.layerInner9
 pcbnew.Control.layerNext	+	
 pcbnew.Control.layerPairPresetCycle	Shift+V	
 pcbnew.Control.layerPrev	-	
-pcbnew.Control.layerToggle	V	
+pcbnew.Control.layerToggle	L	
 pcbnew.Control.layerTop	PgUp	
 pcbnew.Control.localRatsnestTool		
 pcbnew.Control.netColorMode		
@@ -556,6 +556,7 @@ pcbnew.EditorControl.appendBoard
 pcbnew.EditorControl.assignNetclass		
 pcbnew.EditorControl.boardSetup		
 pcbnew.EditorControl.clearHighlight	~	
+pcbnew.EditorControl.collect3DModels		
 pcbnew.EditorControl.drillOrigin		
 pcbnew.EditorControl.drillResetOrigin		
 pcbnew.EditorControl.drillSetOrigin		
@@ -584,7 +585,7 @@ pcbnew.EditorControl.showEeschema
 pcbnew.EditorControl.showNet		
 pcbnew.EditorControl.toggle45	Shift+Space	
 pcbnew.EditorControl.toggleLastNetHighlight		
-pcbnew.EditorControl.toggleLock	L	
+pcbnew.EditorControl.toggleLock	Shift+L	
 pcbnew.EditorControl.toggleNetHighlight	Alt+`	
 pcbnew.EditorControl.trackViaSizeChanged		
 pcbnew.EditorControl.trackWidthDec	Shift+W	
@@ -686,6 +687,7 @@ pcbnew.InteractiveMove.moveWithReference
 pcbnew.InteractiveRouter.AttemptFinish	F	
 pcbnew.InteractiveRouter.Autoroute	Shift+F	
 pcbnew.InteractiveRouter.BreakTrack		
+pcbnew.InteractiveRouter.CancelCurrentItem		
 pcbnew.InteractiveRouter.ContinueFromEnd	Ctrl+E	
 pcbnew.InteractiveRouter.CustomTrackViaSize	Q	
 pcbnew.InteractiveRouter.CycleRouterMode		
