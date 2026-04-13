@@ -117,7 +117,7 @@
     "f_silks": "rgb(242, 237, 161)",
     "grid": "rgb(132, 132, 132)",
     "grid_axes": "rgb(194, 194, 194)",
-    "locked_shadow": "rgba(255, 38, 226, 0.502)",
+    "locked_shadow": "rgba(255, 38, 226, 0.129)",
     "margin": "rgb(255, 38, 226)",
     "pad_net_names": "rgba(255, 255, 255, 0.902)",
     "pad_plated_hole": "rgb(194, 194, 0)",
