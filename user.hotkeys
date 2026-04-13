@@ -517,7 +517,7 @@ pcbnew.Control.layerInner7
 pcbnew.Control.layerInner8		
 pcbnew.Control.layerInner9		
 pcbnew.Control.layerNext	+	
-pcbnew.Control.layerPairPresetCycle	Shift+V	
+pcbnew.Control.layerPairPresetCycle		
 pcbnew.Control.layerPrev	-	
 pcbnew.Control.layerToggle	L	
 pcbnew.Control.layerTop	PgUp	
@@ -651,7 +651,7 @@ pcbnew.InteractiveDrawing.setAnchor	Ctrl+Shift+N
 pcbnew.InteractiveDrawing.similarZone	Ctrl+Shift+.	
 pcbnew.InteractiveDrawing.text	Ctrl+Shift+T	
 pcbnew.InteractiveDrawing.textbox		
-pcbnew.InteractiveDrawing.via	Ctrl+Shift+X	
+pcbnew.InteractiveDrawing.via	V	
 pcbnew.InteractiveDrawing.zone	Ctrl+Shift+Z	
 pcbnew.InteractiveDrawing.zoneCutout	Shift+C	
 pcbnew.InteractiveEdit.FindMove	T	
@@ -699,7 +699,7 @@ pcbnew.InteractiveRouter.HighlightMode
 pcbnew.InteractiveRouter.InlineDrag		
 pcbnew.InteractiveRouter.PlaceBlindVia	Alt+Shift+V	
 pcbnew.InteractiveRouter.PlaceMicroVia	Ctrl+V	
-pcbnew.InteractiveRouter.PlaceVia	V	
+pcbnew.InteractiveRouter.PlaceVia	Shift+V	
 pcbnew.InteractiveRouter.RouteSelected	Shift+X	
 pcbnew.InteractiveRouter.RouteSelectedFromEnd	Shift+E	
 pcbnew.InteractiveRouter.SelLayerAndPlaceBlindVia	Alt+<	

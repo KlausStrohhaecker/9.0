@@ -40,10 +40,6 @@
     {
       "colors": [
         {
-          "color": "rgb(194, 194, 194)",
-          "layer": ""
-        },
-        {
           "color": "rgb(102, 102, 128)",
           "layer": "background_bottom"
         },
@@ -98,6 +94,186 @@
         {
           "color": "rgb(179, 26, 26)",
           "layer": "user_eco2"
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(232, 178, 167)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
         }
       ],
       "layers": [
@@ -297,7 +473,7 @@
       "always_show_cursor": true,
       "fullscreen_cursor": false
     },
-    "display": 0,
+    "display": 1,
     "grid": {
       "axes_enabled": false,
       "fast_grid_1": 15,
