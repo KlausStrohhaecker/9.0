@@ -64,7 +64,7 @@
       "Description"
     ],
     "open_libs": [
-      "ks-RCL"
+      "ks-diode"
     ]
   },
   "library": {
