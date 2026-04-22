@@ -103,7 +103,7 @@ common.Control.saveAs	Ctrl+Shift+S
 common.Control.saveCopy		
 common.Control.selectColumns		
 common.Control.show3DViewer	Alt+3	
-common.Control.showContextMenu		
+common.Control.showContextMenu	C	
 common.Control.showDatasheet	Alt+Shift+D	
 common.Control.showFootprintBrowser		
 common.Control.showFootprintEditor		
